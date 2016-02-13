@@ -1,7 +1,6 @@
 This code has been written for codility.com programmers challenges (Argon 2015)
-Well, after it had ended, and I've not done it in 2 hours. It's still not 
-precise, there should be a next version as soon as I get a chance to 
-improve it.  
+Well, after it had ended, and I've not done it in 2 hours. Now in this 
+release it is precise.
 
 The task:
 Find a longest slice of a binary array that can be split into two parts: in the left part, 0 should be the 
