@@ -1,0 +1,25 @@
+body{
+  font-family: Verdana, Arial,'Lucida Grande',  Sans-Serif;
+  background-color:#ffcc66;
+  color:#111;
+  text-align:center;
+}
+H1{
+  font-style:bold; font-size: 150%; color: #999;
+}
+.main{
+  position:absolute; 
+  width:800px; 
+  height:100%
+  visibility:visible;
+  background-image:url(../images/bg.jpg);
+  background-attachment:fixed;
+  background-repeat:repeat-y;
+  background-position:top center;
+}
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {color: #000c66;}
+

@@ -1,0 +1,11 @@
+A code samle for vote poll.
+
+Extrenal dependnecies:
+jQuery modules: 
+1. main (jquery-{version}.min.js)
+2. jqplot (jquery.jqplot.min.js) and its plugins:
+  jqplot.barRenderer.min.js
+  jqplot.highlighter.min.js
+  jqplot.categoryAxisRenderer.min.js
+
+
