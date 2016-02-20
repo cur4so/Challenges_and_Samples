@@ -135,7 +135,7 @@ function add_vote(val) {
         data: "v="+val,
         dataType: "text",
         success: function(data) {
-            if (data == -1){ return dats=-1; }
+            if ( data.indexOf("already") >= 0  ){ return dats=-1; }
             else {
                 var isnum=/\d+/;
                 dats = data.split(";");
@@ -193,6 +193,9 @@ function validate(div_id,form) {
 </head>
 
 <body>
+<?php
+if (!isset($_SESSION["voted"])){$_SESSION["voted"]=0;}
+?>
 
 
 <div id ="d0" class="main" >

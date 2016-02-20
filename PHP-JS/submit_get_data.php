@@ -1,8 +1,8 @@
 <?php
 session_start();
-if (isset($_SESSION["voted"])){ 
-  print "-1"; exit();
-} else { 
+if (!isset($_SESSION["voted"])){
+  print "unauthorized access"; exit();
+} elseif ($_SESSION["voted"] == 0) {
   if (isset($_GET["v"])){
 
     $v=escapeshellarg($_GET["v"]);
@@ -47,6 +47,6 @@ if (isset($_SESSION["voted"])){
   }
   else {print "no input data";}
   exit();  
-}
+} else {print "you already had voted"; exit();}
 ?>
 
